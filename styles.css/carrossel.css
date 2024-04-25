@@ -1,0 +1,24 @@
+.carrossel__titulo{
+    font-size: 18px;
+    font-weight: 700;
+    padding: 0.8em 1em;
+}
+
+
+
+.carrossel__imagem {
+    height: 180px;
+}
+
+.swiper-button-prev, .swiper-button-next {
+    display: none;
+}
+
+.swiper-pagination {
+    position: initial;
+    margin: 0.5em;
+}
+
+.carrossel {
+    text-align: center;
+}

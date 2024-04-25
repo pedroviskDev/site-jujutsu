@@ -1,0 +1,41 @@
+.cabecalho {
+    background: rgb(38,5,5);
+    background: linear-gradient(180deg, rgba(38,5,5,1) 35%, rgba(140,19,19,1) 100%);
+}
+
+.cabecalho__navegacao {
+    display: flex;
+    justify-content: space-around;
+}
+
+.cabecalho__navegacao__link {
+    text-decoration: none;
+    color: var(--preto);
+    font-family: var(--fonte-secundaria);
+    -webkit-text-stroke-width: 0.4px;
+    -webkit-text-stroke-color: var(--amarelado);
+    font-size: 1.5em;
+    padding: 0.5em 0;
+}
+
+.banner__principal__imagem{
+    width: 100%;
+}
+
+.sinopse {
+    background-color: var(--preto);
+    padding: 0 1.5em 3em 1.5em;
+    margin-top: 0.5em;
+}
+
+.sinopse__titulo {
+    color: var(--branco);
+    padding: 1.25em 0 0.8em 5px;
+    font-size: 1.125em;
+    font-weight: 700;
+}
+
+.sinopse__texto{
+    color: var(--branco);
+    font-size: 14px;
+}

@@ -1,0 +1,27 @@
+.rodape {
+    margin-top: 1em;
+    background-image: url("../assets/rodape_01.png"), url("../assets/rodape_02.png");
+    background-repeat: no-repeat, no-repeat;
+    background-size: contain, contain;
+    background-position: left, right;
+    background-color: var(--preto);
+    text-align: center;
+    padding: 3em;
+}
+
+.rodape__titulo {
+    color: var(--branco);
+    font-family: var(--fonte-quartenaria);
+    font-size: 1.5em;
+}
+
+.rodape__texto {
+    margin: 18px 0 15px 0;
+    color: var(--branco);
+    font-family: var(--fonte-terciaria);
+    font-size: 0.5em;
+}
+
+.redes-sociais {
+    margin: 0 0.3em;
+}

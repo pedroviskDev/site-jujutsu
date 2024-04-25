@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jujutsu Website</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <nav class="cabecalho__navegacao">
+            <a href="#" class="cabecalho__navegacao__link">Home</a>
+            <a href="#" class="cabecalho__navegacao__link">Personagens</a>
+            <a href="#" class="cabecalho__navegacao__link">História</a>
+        </nav> 
+    </header>
+    <section class="banner__principal">
+        <img src="./assets/Group 26.svg" class="banner__principal__imagem">
+    </section>
+    <section class="sinopse">
+        <h2 class="sinopse__titulo">Sinopse</h2>
+        <p class="sinopse__texto">Em Jujutsu Kaisen, a vida de um adolescente é virada de cabeça para baixo após entrar em contato com um talismã amaldiçoado. No conceituado anime, o adolescente Yuuji Itadori participa de um clube de ocultismo e acaba se envolvendo com um item perigoso, um dedo amaldiçoado. Para proteger seus colegas de um ataque das Maldições, ele engole o dedo e se torna anfitirão da Maldição. Ao invés de sofrer uma sentença de morte imediata, seu professor consegue levá-lo ao Colégio Técnico Metropolitano de Tóquio e elaborar um plano para que ele consuma todos os dedos para se tornar uma Maldição e, enfim, acabar com ela.</p>
+    </section>
+
+     <section class="carrossel">
+        <h2 class="carrossel__titulo">Feiticeiros Jujutsu</h2>
+            <!-- Slider main container -->
+        <div class="swiper">
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+            
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide"><img src="./assets/gojo_carrosel.png" class="carrossel__imagem"></div>
+            <div class="swiper-slide"><img src="./assets/itadori_carrosel.png" class="carrossel__imagem"></div>
+            <div class="swiper-slide"><img src="./assets/megumi_carrosel.png" class="carrossel__imagem"></div>
+            <div class="swiper-slide"><img src="./assets/nobara_carrossel.png" class="carrossel__imagem"></div>
+            <div class="swiper-slide"><img src="./assets/kusakabe_carrossel.png" class="carrossel__imagem"></div>
+            <div class="swiper-slide"><img src="./assets/yaga_carrossel.png" class="carrossel__imagem"></div>
+            <div class="swiper-slide"><img src="./assets/loira.png" class="carrossel__imagem"></div>
+            <div class="swiper-slide"><img src="./assets/ijicgi.png" class="carrossel__imagem"></div>
+            <div class="swiper-slide"><img src="./assets/medica.png" class="carrossel__imagem"></div>
+            <div class="swiper-slide"><img src="./assets/nanami.png" class="carrossel__imagem"></div>
+            <div class="swiper-slide"><img src="./assets/mei_mei.png" class="carrossel__imagem"></div>
+            ...
+            </div>
+            
+        
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+  
+        </div>
+     </section>
+
+     <section class="carrossel">
+        <h2 class="carrossel__titulo">Maldicões e usuários de maldição</h2>
+            <!-- Slider main container -->
+        <div class="swiper">
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+            
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide"><img src="./assets/mahito.png" class="carrossel__imagem"></div>
+            <div class="swiper-slide"><img src="./assets/sukuna.png" class="carrossel__imagem"></div>
+            <div class="swiper-slide"><img src="./assets/kenjaku.png" class="carrossel__imagem"></div>
+            <div class="swiper-slide"><img src="./assets/vilao_01.png" class="carrossel__imagem"></div>
+            <div class="swiper-slide"><img src="./assets/vilao_02.png" class="carrossel__imagem"></div>
+            <div class="swiper-slide"><img src="./assets/vilao_03.png" class="carrossel__imagem"></div>
+            <div class="swiper-slide"><img src="./assets/vilao_04.png" class="carrossel__imagem"></div>
+            <div class="swiper-slide"><img src="./assets/vilao_05.png" class="carrossel__imagem"></div>
+            <div class="swiper-slide"><img src="./assets/vilao_06.png" class="carrossel__imagem"></div>
+            <div class="swiper-slide"><img src="./assets/vilao_07.png" class="carrossel__imagem"></div>
+            <div class="swiper-slide"><img src="./assets/vilao_08.png" class="carrossel__imagem"></div>
+            ...
+            </div>
+            
+        
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+  
+        </div>
+     </section>
+
+     <footer class="rodape">
+        <h1 class="rodape__titulo">Jujutsu Kaisen</h1>
+        <p class="rodape__texto">Desenvolvido por Pedro H. S. dos Santso</p>
+        <a href="#" class="redes-sociais"><img src="./assets/linkedin.png"></a>
+        <a href="#" class="redes-sociais"><img src="./assets/github.png" ></a>
+        <a href="#" class="redes-sociais"><img src="./assets/email.png"></a>
+
+
+     </footer>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+        spaceBetween: 10,
+        slidesPerView: 3,
+        pagination: {
+        el: '.swiper-pagination',
+        type: 'bullets',
+        },
+        });
+        
+    </script>
+</body>
+</html>
